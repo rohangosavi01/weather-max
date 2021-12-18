@@ -69,4 +69,7 @@ $ flask run
 
 <img width="1591" alt="Screen Shot 2021-12-17 at 21 11 47" src="https://user-images.githubusercontent.com/64428362/146627535-b3fc4df7-149d-4599-a087-44fbe69b1d31.png">
 
+<img width="1489" alt="Screen Shot 2021-12-18 at 00 37 59" src="https://user-images.githubusercontent.com/64428362/146634663-ecb1a5d0-7109-4b49-95a2-f26f0d132f73.png">
+
+
 
