@@ -39,8 +39,8 @@ $ flask run
 ## Descriptions 
 
 - ```app.py``` : Program entry point
-- ```auth.py``` : Makes requests to the OpenWeather API and returns json data in Python Dictionary Format.
-- ```parse_data.py``` :  This module creates a custom dictionary of data for different webpages.
+- ```authentication.py``` : Makes requests to the OpenWeather API and returns json data in Python Dictionary Format.
+- ```customDictionary.py``` :  This module creates a custom dictionary of data for different webpages.
 - ```index.html & weather.html``` : Display dynamic data from form fields using POST Http request method.
 
 ## Refrences and Learning Outcomes
