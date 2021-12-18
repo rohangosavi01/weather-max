@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Max</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+
+<body>
+
+    <div class="box-root padding-top--24 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 9;">
+
+        <div class="box-root padding-top--48 padding-bottom--24 flex-flex flex-justifyContent--center">
+            <h1><a href="https://www.rohangosavi.com/" rel="dofollow">Weather Max</a></h1>
+        </div>
+
+        <!--- Form Entry -->
+        <div class="formbg-outer">
+
+            <div class="formbg">
+                <div class="formbg-inner padding-horizontal--48">
+
+                    <form method="POST" id="stripe-login" action="/weather">
+
+                        <div class="field padding-bottom--24">
+                            <input class="city_name" type="text" name="city" placeholder="Enter City Here!" />
+                        </div>
+
+
+                        <div class="field field-checkbox padding-bottom--24 flex-flex align-center leftal">
+                            <input class="far" type="radio" name="scale" id="celsius" value="celsius" checked="checked">
+                            celsius </input>
+                        </div>
+
+                        <div class="field field-checkbox padding-bottom--24 flex-flex align-center leftal">
+                            <input class="far" type="radio" name="scale" id="fahrenheit" value="fahrenheit"> fahrenheit
+                            </input>
+                        </div>
+
+                        <div class="field padding-bottom--24">
+                            <input class="submit" type="submit" value="submit" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer-link padding-top--24">
+                <div class="listing padding-top--24 padding-bottom--24 flex-flex center-center">
+                    <span><a href="https://github.com/rohangosavi01/live-weather-application">Weather Forecasting
+                            Project</a></span>
+                    <span><a href="mailto:rohangosavi01@gmail.com">email me.</a></span>
+                    <span><a>Rohan Gosavi</a></span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
