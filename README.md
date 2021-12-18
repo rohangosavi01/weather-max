@@ -1,5 +1,5 @@
 
-# ⛔️ SOME WORK IS STILL IN PROGRESS 🧑🏻‍💻 
+## ⛔️ Some Work is Still in Progress 🧑🏻‍💻 
 
 # Live Weather Viewing Application 
 
