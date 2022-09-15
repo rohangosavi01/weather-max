@@ -1,5 +1,4 @@
 
-## ⛔️ Some Work is Still in Progress 🧑🏻‍💻 
 
 # Live Weather Viewing Application 
 
